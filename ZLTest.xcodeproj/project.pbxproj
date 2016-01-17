@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46A0E0BF1C4B34DC00C6E153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A0E0BE1C4B34DC00C6E153 /* AppDelegate.swift */; };
+		46A0E0C11C4B34DC00C6E153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A0E0C01C4B34DC00C6E153 /* ViewController.swift */; };
+		46A0E0C41C4B34DC00C6E153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A0E0C21C4B34DC00C6E153 /* Main.storyboard */; };
+		46A0E0C61C4B34DC00C6E153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A0E0C51C4B34DC00C6E153 /* Assets.xcassets */; };
+		46A0E0C91C4B34DC00C6E153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A0E0C71C4B34DC00C6E153 /* LaunchScreen.storyboard */; };
+		46A0E0D61C4B371B00C6E153 /* ZLSwipeableViewSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A0E0D51C4B371B00C6E153 /* ZLSwipeableViewSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46A0E0BB1C4B34DC00C6E153 /* ZLTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A0E0BE1C4B34DC00C6E153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46A0E0C01C4B34DC00C6E153 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46A0E0C31C4B34DC00C6E153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46A0E0C51C4B34DC00C6E153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46A0E0C81C4B34DC00C6E153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46A0E0CA1C4B34DC00C6E153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A0E0D51C4B371B00C6E153 /* ZLSwipeableViewSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZLSwipeableViewSwift.framework; path = Carthage/Build/iOS/ZLSwipeableViewSwift.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46A0E0B81C4B34DC00C6E153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A0E0D61C4B371B00C6E153 /* ZLSwipeableViewSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46A0E0B21C4B34DC00C6E153 = {
+			isa = PBXGroup;
+			children = (
+				46A0E0D51C4B371B00C6E153 /* ZLSwipeableViewSwift.framework */,
+				46A0E0BD1C4B34DC00C6E153 /* ZLTest */,
+				46A0E0BC1C4B34DC00C6E153 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46A0E0BC1C4B34DC00C6E153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46A0E0BB1C4B34DC00C6E153 /* ZLTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46A0E0BD1C4B34DC00C6E153 /* ZLTest */ = {
+			isa = PBXGroup;
+			children = (
+				46A0E0BE1C4B34DC00C6E153 /* AppDelegate.swift */,
+				46A0E0C01C4B34DC00C6E153 /* ViewController.swift */,
+				46A0E0C21C4B34DC00C6E153 /* Main.storyboard */,
+				46A0E0C51C4B34DC00C6E153 /* Assets.xcassets */,
+				46A0E0C71C4B34DC00C6E153 /* LaunchScreen.storyboard */,
+				46A0E0CA1C4B34DC00C6E153 /* Info.plist */,
+			);
+			path = ZLTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46A0E0BA1C4B34DC00C6E153 /* ZLTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A0E0CD1C4B34DC00C6E153 /* Build configuration list for PBXNativeTarget "ZLTest" */;
+			buildPhases = (
+				46A0E0B71C4B34DC00C6E153 /* Sources */,
+				46A0E0B81C4B34DC00C6E153 /* Frameworks */,
+				46A0E0B91C4B34DC00C6E153 /* Resources */,
+				46A0E0D71C4B371F00C6E153 /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLTest;
+			productName = ZLTest;
+			productReference = 46A0E0BB1C4B34DC00C6E153 /* ZLTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46A0E0B31C4B34DC00C6E153 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andrew Breckenridge";
+				TargetAttributes = {
+					46A0E0BA1C4B34DC00C6E153 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 46A0E0B61C4B34DC00C6E153 /* Build configuration list for PBXProject "ZLTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46A0E0B21C4B34DC00C6E153;
+			productRefGroup = 46A0E0BC1C4B34DC00C6E153 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46A0E0BA1C4B34DC00C6E153 /* ZLTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46A0E0B91C4B34DC00C6E153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A0E0C91C4B34DC00C6E153 /* LaunchScreen.storyboard in Resources */,
+				46A0E0C61C4B34DC00C6E153 /* Assets.xcassets in Resources */,
+				46A0E0C41C4B34DC00C6E153 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46A0E0D71C4B371F00C6E153 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ZLSwipeableViewSwift.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46A0E0B71C4B34DC00C6E153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A0E0C11C4B34DC00C6E153 /* ViewController.swift in Sources */,
+				46A0E0BF1C4B34DC00C6E153 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46A0E0C21C4B34DC00C6E153 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46A0E0C31C4B34DC00C6E153 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46A0E0C71C4B34DC00C6E153 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46A0E0C81C4B34DC00C6E153 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46A0E0CB1C4B34DC00C6E153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46A0E0CC1C4B34DC00C6E153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46A0E0CE1C4B34DC00C6E153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ZLTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tfw.ZLTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46A0E0CF1C4B34DC00C6E153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ZLTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tfw.ZLTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46A0E0B61C4B34DC00C6E153 /* Build configuration list for PBXProject "ZLTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A0E0CB1C4B34DC00C6E153 /* Debug */,
+				46A0E0CC1C4B34DC00C6E153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46A0E0CD1C4B34DC00C6E153 /* Build configuration list for PBXNativeTarget "ZLTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A0E0CE1C4B34DC00C6E153 /* Debug */,
+				46A0E0CF1C4B34DC00C6E153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46A0E0B31C4B34DC00C6E153 /* Project object */;
+}
